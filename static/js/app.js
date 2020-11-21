@@ -90,7 +90,7 @@ function update(patientName, data){
 }
 
 
-d3.json("../samples.json").then((data) => {
+d3.json("../../samples.json").then((data) => {
     // Create a variable to hold the Select ELement
     var selectElem = d3.select("#selDataset");
 
